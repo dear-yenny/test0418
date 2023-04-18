@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9rem;
+    width: 100%;
+    /* max-width: 700px; */
+    min-width: 690px;
+    font-family: 'ELAND_Choice_M';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* 상단 바 */
+#hd {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    line-height: 70px;
+    background: #ffe8ba;
+    width: 100%;
+    z-index: 50;
+}
+#hd h1 {
+    /* float: left; */
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'ELAND_Nice_M';
+}
+
+#hd .h {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#hd .s {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+
+/* 로그인하기 */
+#login {
+    width: 100%;
+    top: 70px;
+    position: relative;
+    font-size: 1rem;
+    /* margin: 10%; */
+}
+
+#login > h2 {
+    font: 2.5rem 'ELAND_Nice_M';
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* 휴대폰번호로 로그인하기 */
+.login2 {
+    display: inline-block;
+    width: 70%;
+    margin: auto 15%;
+    height: auto;
+
+    /* display: none; */
+}
+
+.login2 h3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #aa8700;
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.login2 .now {
+    background: #ffe8ba;
+}
+
+#login_phone {
+    border: 1px solid #aa8700;
+    border-radius: 0 0 5px 5px;
+    height: 350px;
+    margin-top: 42px;
+    text-align: center;
+}
+#login_phone label {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(50%);
+}
+#login_phone input {
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #000;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+}
+
+
+#name {
+    transform: translateX(-10%);
+}
+
+
+
+/* 주민번호 */
+#resident {
+    display: flex;
+    flex-wrap: wrap;
+}
+#resident label {
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#resident input {
+    width: 30%;
+    transform: translateX(7%);
+}
+#resident p {
+    font-size: 1.5rem;
+    top: 50%;
+    display: inline-block;
+    transform: translateY(45%);
+    margin-left: 20px;
+    text-align: center;
+}
+
+#resident #roll {
+    position: absolute;
+    right: 7%;
+    bottom: 5px;
+    top: 50%;
+    transform: translateY(-12%) translateX(-65%);
+    margin-left: 3px;
+    z-index: 35;
+}
+#roll a {
+    width: 15px;
+    height: 15px;
+    background: #333;
+    opacity: 0.9;
+    float: left;
+    border-radius: 15px;
+    margin: 2px;
+}
+#roll .on {
+    background: #ccc;
+}
+
+
+
+/* 휴대폰번호 */
+#number {
+    transform: translateX(-15.5%);
+}
+#number label {
+    margin-right: 0;
+}
+#number input  {
+    margin-left: 20px;
+}
+
+
+/* 통신사 */
+#telecom {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 15px;
+    display: inline-block;
+    margin-left: 0;
+}
+#telecom p {
+    transform: translateX(-90%) translateY(50%);
+    text-align: left;
+}
+#telecom select {
+    padding: 10px;
+    margin-left: 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transform: translateX(-15%) translateY(-50%);
+}
+
+
+
+
+/* 로그인 버튼 */
+#button input {
+    background: #554400;
+    color: #fff;
+    font: 1.5rem 'ELAND_Choice_M';
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+
+/* 회원가입 */
+#sub div {
+    width: 50%;
+    margin: 0 auto;
+    transform: translateX(25%) translateY(550%);
+}
+#sub div a{
+    margin-right: 10px;
+    color: #858585;
+}
+
+
+
+
+
+
+/* sns계정 간편로그인 */
+#sns {
+    /* position: fixed; */
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.line1, .line2 {
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    background: #aa8700;
+    top: 50%;
+    transform: translateY(1550%);
+}
+.line2 {
+    float: right;
+    top: 50%;
+    transform: translateY(1850%);
+}
+#sns h2 {
+    text-align: center;
+    margin: 30px;
+}
+.sns_in {
+    display: flex;
+    width: 100%;
+}
+.sns_in li {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25%;
+    text-align: center;
+}
+.sns_in li a {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+}
+.sns_in li a img {
+    width: 100%;
+    height: auto;
+}
+

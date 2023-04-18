@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* 상단 바 */
+header {
+    position: fixed;
+    height: 70px;
+    line-height: 70px;
+    background: #ffe8ba;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#hd h1 {
+    /* float: left; */
+    text-align: center;
+    width: 100%;
+    font-family: 'ELAND_Nice_M';
+    display: inline-block;
+}
+#hd h1 a  {
+    position: absolute; 
+    padding-left: 10px;
+}
+#hd img {
+     top: 10px;
+}
+
+
+
+
+/* logo menu */
+
+
+
+
+/* hamburger */
+/* hamburger head menu */
+
+
+
+
+
+
+
+/* hamburger sub menu */
+
+
+
+/* Main menu */
+
+
+
+
+
+
+
+
+/* What's New */
+
+
+
+
+
+
+
+/* Event */
+
+
+
+
+
+
+
+/* E-LAND MAGAZINE */
+
+
+
+
+
+/* E-LAND CHANNEL */
+
+
+
+
+/* Footer */

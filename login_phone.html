@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5_MOBIOLE_ELAND_LOGIN_PHONE_KYE</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login_phone.css">
+    <link rel="shortcut icon" href="./AnyConv.com__favicon.ico">
+</head>
+<!-- 로그인 페이지 -->
+<body>
+    <!-- 접근성 건너뛰기 링크 -->
+    <div class="skip">
+        <a href="#gnb">메뉴 바로가기</a>
+        <a href="#container">콘텐츠 바로가기</a>
+    </div>
+    
+    <!-- 상단 바 -->
+    <header id="hd">
+        <h1>E-LAND RETAIL</h1>
+        <div class="h">
+            <a href="#">
+                <img src="./img/hamburger.png" width="30" alt="hamburger">
+            </a>
+        </div>
+
+        <div class="s">
+            <a href="#">
+                <img src="./img/search.png" width="30" alt="search">
+            </a>
+        </div>
+    </header>
+
+    <!-- 로그인하기 -->
+
+    <section id="login">
+        <h2>LOGIN</h2>
+
+        <form action="login.php" method="post" class="login2 cf">
+            <a href="./login_id.html"><h3>아이디로 로그인하기</h3></a>
+            <h3 class="now">휴대폰 번호로 로그인하기</h3>
+
+            <div id="login_phone">
+                <div id="name">
+                    <label for="name1">이름</label>
+                    <input type="text" name="name" id="name1">
+                </div>
+
+                <div id="resident">
+                    <label for="resident1">주민번호</label>
+                    <input type="text" id="resident1">
+                    <p>-</p>
+                    <div id="roll">
+                        <a class="on" href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+
+                <div id="number">
+                  <label for="number1">휴대폰번호</label>  
+                  <input type="text" name="number" id="number1">
+                </div>
+
+                <div id="telecom">
+                    <p>통신사</p>
+                    <select name="agency" >
+                        <option value="sk">SK</option>
+                        <option value="lg">LG U+</option>
+                        <option value="kt">KT</option>
+                        <option value="sk">SK 알뜰폰</option>
+                        <option value="lg">LG U+ 알뜰폰</option>
+                        <option value="kt">KT알뜰폰</option>
+                    </select>
+                    
+                </div>
+                
+
+                <div id="button">
+                    <input type="submit" value="로그인" class="login">
+                </div>
+
+            </div>
+        </form>
+        
+    </section>
+
+
+    <!-- 회원가입 -->
+    <nav id="sub">
+        <div>
+            <a href="./member.html">회원가입</a>
+            <a href="#">아이디/비밀번호 찾기</a>
+        </div>
+    </nav>
+
+
+    <!-- sns계정 간편로그인 -->
+    <nav id="sns">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <h2>SNS 계정으로 간편 로그인</h2>
+        <ul class="sns_in">
+            <li>
+                <a href="https://nid.naver.com/nidlogin.login">
+                    <img src="./img/naver.png" width="50" height="50" alt="naver">
+                </a>
+            </li>
+            <li>
+                <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fcs.kakao.com%2Fhelps%3Fcategory%3D25#login">
+                    <img src="./img/kakao.png" width="50" height="50" alt="kakao">
+                </a>
+            </li>
+            <li>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S889495576%3A1679293022356313&continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=AWnogHdwooYcEYsJpWcEu9x_AynRBprtw4dqF_dQ1keGUoLi5-JdHxzRNzk5EH3RHt368F4gYkemvQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <img src="./img/google.png" width="50" height="50" alt="google">
+                </a>
+            </li>
+            <li>
+                <a href="https://appleid.apple.com/sign-in">
+                    <img src="./img/apple.png" width="55" height="55" alt="apple">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>

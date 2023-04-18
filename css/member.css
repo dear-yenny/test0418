@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9rem;
+    width: 100%;
+    /* max-width: 700px; */
+    min-width: 640px;
+    font-family: 'ELAND_Choice_M';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* 상단 바 */
+#hd {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    line-height: 70px;
+    background: #ffe8ba;
+    width: 100%;
+    z-index: 50;
+}
+#hd h1 {
+    /* float: left; */
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'ELAND_Nice_M';
+}
+
+#hd .h {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#hd .s {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+}
+
+
+
+/* 뒤로가기 버튼 */
+#back {
+    /* position: relative; */
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 20px;
+    height: auto;
+    line-height: 90px;
+}
+#back a {
+    /* position: absolute; */
+    display: flex;
+    width: 60px;
+    margin-bottom: 30px;
+}
+#back a img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* JOIN MEMBERSHIP */
+#join {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+#join h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'ELAND_Nice_M';
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+#join .join {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+
+/* 내용 */
+.member {
+    border: 1px solid #aa8700;
+    border-radius: 5px;
+    height: 600px;
+    margin-top: 42px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+#member {
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: inline-block;
+    position: relative;
+}
+
+#member #sub1, #member #sub2 {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#member label {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#member input {
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: inline-block;
+    color: #000;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+}
+
+
+/* 중복 확인 */
+#overlap {
+    position: absolute;
+    top: 15px;
+    right: -50px;
+}
+#overlap input {
+    background: #ffb03d;
+    border: 1px solid #ce8923;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+.pw {
+    transform: translateX(-3%);
+}
+.pw2 {
+    transform: translateX(-9%);
+}
+.name {
+    transform: translateX(3%);
+}
+.phone {
+    transform: translateX(-6%);
+}
+.birth {
+    transform: translateX(-12%);
+}
+
+
+
+/* 통합멤버쉽 가입하기 */
+.all {
+    font-size: 1.1rem;
+    color: #222;
+    margin-top: 20px;
+}
+
+/* 가입 버튼 */
+#button {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#button input {
+    background: #554400;
+    color: #fff;
+    font: 1.5rem 'ELAND_Choice_M';
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+

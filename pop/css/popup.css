@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+.popup {
+    /* width: 60%; */
+    /* position: absolute; */
+    /* left: 25%; */
+    /* top: 25%; */
+    opacity: 0.9;
+    z-index: 99;
+
+    /* display: none; */
+}
+
+.popup img {
+    width: 100%;
+}
