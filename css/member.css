@@ -66,6 +66,198 @@ a {
 
 
 
+
+
+/* hamburger - close */
+/* hamburger head menu */
+#ham {
+    position: fixed;
+    top: 70px;
+    background: #ffe8ba;
+    opacity: 0.9;
+    height: 100%;
+    line-height: 70px;
+    width: 330px;
+    font-family: 'ELAND_Choice_M';
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+    left: -330px;
+
+    z-index: 960;
+    /* display: none; */
+}
+
+
+
+#ham_hd .line {
+    width: 90%;
+    height: 80px;
+    border-bottom: 1px solid #aa8700;
+    margin: 0 auto;
+}
+
+#ham_hd {
+    width: 100%;
+    height: 150px;
+}
+#ham_hd ul {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 20px 0;
+    padding-left: 5px;
+}
+#ham_hd ul li {
+    float: left;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    line-height: 30px;
+    margin: 0 auto;
+}
+#ham_hd ul .loca {
+    clear: both;
+    float: left;
+    display: block;
+    top: 40px;
+    left: 0px;
+}
+
+#ham_hd li img {
+    top: 50%;
+    transform: translateY(30%);
+    margin: 0 20px;
+}
+
+#ham_hd ul li:hover a, .menu li:hover a {
+    color: #554400;
+    font-weight: bold;
+}
+
+/* hamburger sub menu */
+.menu {
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+.menu li {
+    margin-top: -10px;
+}
+.menu span {
+    font-size: 1.1rem;
+}
+.menu img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    transform: translateX(-200%);
+}
+
+
+
+
+/* hamburger-open*/
+/* hamburger head menu */
+#ham.open {
+    position: fixed;
+    top: 70px;
+    background: #ffe8ba;
+    opacity: 0.9;
+    height: 100%;
+    line-height: 70px;
+    width: 330px;
+    font-family: 'ELAND_Choice_M';
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.5s;
+    left: 0px;
+
+    z-index: 960;
+    /* display: none; */
+}
+
+/* #hd .h > a:hover #ham {
+    opacity: 1;
+    left: -1200px;
+    left: 0px;
+    z-index: 99;
+} */
+
+#ham_hd .line {
+    width: 90%;
+    height: 80px;
+    border-bottom: 1px solid #aa8700;
+    margin: 0 auto;
+}
+
+#ham_hd {
+    width: 100%;
+    height: 150px;
+}
+#ham_hd ul {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 20px 0;
+    padding-left: 5px;
+}
+#ham_hd ul li {
+    float: left;
+    display: block;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    line-height: 30px;
+    margin: 0 auto;
+}
+#ham_hd ul .loca {
+    clear: both;
+    float: left;
+    display: block;
+    top: 40px;
+    left: 0px;
+}
+
+#ham_hd li img {
+    top: 50%;
+    transform: translateY(30%);
+    margin: 0 20px;
+}
+
+#ham_hd ul li:hover a, .menu li:hover a {
+    color: #554400;
+    font-weight: bold;
+}
+
+/* hamburger sub menu */
+.menu {
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+.menu li {
+    margin-top: -10px;
+}
+.menu span {
+    font-size: 1.1rem;
+}
+.menu img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    transform: translateX(-200%);
+}
+
+
+
+
+
+
+
 /* 뒤로가기 버튼 */
 #back {
     /* position: relative; */
@@ -78,7 +270,7 @@ a {
 #back a {
     /* position: absolute; */
     display: flex;
-    width: 60px;
+    width: 40px;
     margin-bottom: 30px;
 }
 #back a img {
@@ -148,11 +340,12 @@ a {
 }
 
 
+
 /* 중복 확인 */
 #overlap {
     position: absolute;
     top: 15px;
-    right: -50px;
+    right: -45px;
 }
 #overlap input {
     background: #ffb03d;
